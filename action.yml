@@ -1,0 +1,12 @@
+name: 'GitHub Labeler Action'
+description: 'Add Estimated Read Time labels to Pull Request'
+branding:
+  icon: "check-circle"
+  color: "yellow"
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub Token'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
